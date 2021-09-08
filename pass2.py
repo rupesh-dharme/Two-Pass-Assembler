@@ -1,5 +1,4 @@
 import json
-import pandas as pd
 
 ST = json.load(open('./Tables/ST.json', 'r'))
 LT = json.load(open('./Tables/LT.json', 'r'))
@@ -39,7 +38,7 @@ if __name__ == '__main__':
 
     for line in lines:
         l = convert_to_list(line)
-        if l[0][1:3] == 'AD': continue
+        if l[0][1:3] == 'AD' or l[0][1:3] == 'DS': continue
         s = convert_to_machine(l)
         code.append(s)
     
