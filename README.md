@@ -16,12 +16,12 @@ In pass 2 the IR file is converted into machine code using ST and LT. That is a 
 
 Here are some output snaps.
 ## Pass 1
-[snap01](Screenshots/pass1/Snap03.jpg)
-[snap02](Screenshots/pass1/Snap04.jpg)
+![snap01](Screenshots/pass1/Snap03.jpg)
+![snap02](Screenshots/pass1/Snap04.jpg)
 
 ## Pass 2
-[snap01](Screenshots/pass2/Snap01.jpg)
-[snap02](Screenshots/pass2/Snap02.jpg)
+![snap01](Screenshots/pass2/Snap01.jpg)
+![snap02](Screenshots/pass2/Snap02.jpg)
 
 Though this won't simulate an assembler completely and may sometime give wrong outputs.
 An actual assembler is far more complex and efficient.
