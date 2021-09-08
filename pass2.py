@@ -31,7 +31,7 @@ def convert_to_machine(l):
     return ' '.join(s)
 
 if __name__ == '__main__':
-    with open('IR.txt', 'r') as file:
+    with open('Outputs/IR.txt', 'r') as file:
         lines = file.readlines()
 
     code = []
@@ -42,5 +42,5 @@ if __name__ == '__main__':
         s = convert_to_machine(l)
         code.append(s)
     
-    with open('target.txt', 'w') as file:
+    with open('Outputs/target.txt', 'w') as file:
         file.write('\n'.join(code)+'\n')

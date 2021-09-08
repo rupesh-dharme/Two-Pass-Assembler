@@ -132,7 +132,7 @@ def inISs():
     lc += MOT[neumonic][2]
 
 if __name__ == "__main__":
-    with open('asm2.txt', 'r') as source:
+    with open('Inputs/asm1.txt', 'r') as source:
         lines = source.readlines()
         
     IR = []
@@ -151,7 +151,7 @@ if __name__ == "__main__":
 
     print()
     print(pd.Series(ST))
-    with open('IR.txt', 'w') as ir:
+    with open('Outputs/IR.txt', 'w') as ir:
         ir.writelines(IR)
     
     json.dump(ST, open('./Tables/ST.json', 'w'))
